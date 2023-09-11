@@ -11,8 +11,26 @@ body {
     position: sticky;
 }
 
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    margin-top: 3px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
 h2 {
     margin-right: 200px;
+    margin-bottom: 5px;
 }
 
 .authorAndButtons {
@@ -26,6 +44,6 @@ h2 {
 }
 
 button {
-    height: 20px;
-    width: 40px;
+    height: 32px;
+    width: 58px;
 }
