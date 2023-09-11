@@ -1,0 +1,31 @@
+body {
+    margin-left: 35%;
+    width: 400px;
+    margin-right: 250px;
+}
+
+.navTop {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: sticky;
+}
+
+h2 {
+    margin-right: 200px;
+}
+
+.authorAndButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.authorAndButtons p {
+    margin-right: 290px;
+}
+
+button {
+    height: 20px;
+    width: 40px;
+}
